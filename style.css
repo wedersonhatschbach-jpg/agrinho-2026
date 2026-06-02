@@ -1,4 +1,4 @@
-/* Reset básico */
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -6,33 +6,20 @@
     font-family: Arial, sans-serif;
 }
 
-/* Cores */
+/* VARIÁVEIS DE COR */
 :root {
-    --cor-primaria: #00ffff; /* Ciano */
-    --cor-secundaria: #ffb6c1; /* Rosa Claro */
-    --cor-texto: #333;
+    --primary: #00ffff; /* Ciano */
+    --secondary: #ffb6c1; /* Rosa claro */
+    --text: #333;
+    --bg: #f0f8ff;
 }
 
-/* Cabeçalho */
+/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: var(--cor-primaria);
+    background: var(--primary);
     color: #fff;
-}
-
-header .logo {
-    font-size: 1.8em;
-    font-weight: bold;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-header nav ul li a {
-    color:
+    position: sticky

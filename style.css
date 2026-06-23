@@ -8,10 +8,16 @@
 
 /* VARIÁVEIS DE COR */
 :root {
-    --primary: #00ffff; /* Ciano */
-    --secondary: #ffb6c1; /* Rosa claro */
+    --primary: #00ffff; 
+    --secondary: #ffb6c1;
     --text: #333;
     --bg: #f0f8ff;
+}
+
+/* BODY */
+body {
+    background: var(--bg);
+    color: var(--text);
 }
 
 /* HEADER */
@@ -22,4 +28,74 @@ header {
     padding: 15px 50px;
     background: var(--primary);
     color: #fff;
-    position: sticky
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* MENU */
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* BANNER */
+.banner {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(var(--primary), var(--secondary));
+    color: white;
+}
+
+/* SEÇÕES */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-alt {
+    background: #e6ffff;
+}
+
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: var(--primary);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* QUIZ */
+.quiz-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quiz-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

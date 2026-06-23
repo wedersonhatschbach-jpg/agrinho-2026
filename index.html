@@ -1,151 +1,135 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patrick - Agro Forte Futuro Sustentável</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- CABEÇALHO -->
-    <header>
-        <div class="logo">Patrick 🌱</div>
-        <nav>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#producao">Produção</a></li>
-                <li><a href="#tecnologia">Tecnologia</a></li>
-                <li><a href="#meio-ambiente">Meio Ambiente</a></li>
-                <li><a href="#quiz">Quiz</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- QUIZ COMPLETO -->
+<section id="quiz" class="section section-alt">
+    <div class="quiz-wrapper">
 
-    <!-- BANNER -->
-    <section id="home" class="banner">
-        <div class="banner-content">
-            <h1>Agro Forte, Futuro Sustentável 🌾</h1>
-            <p>Equilibrando a produção de soja e a preservação do meio ambiente</p>
-            <a href="#producao" class="btn">Saiba Mais</a>
+        <div class="quiz-image">
+            <img src="https://i.imgur.com/VrEoV6x.jpg" alt="Imagem do quiz">
         </div>
-    </section>
 
-    <!-- PRODUÇÃO -->
-    <section id="producao" class="section">
-        <div class="section-content">
-            <h2>Produção de Soja 🚜</h2>
-            <p>A soja é uma cultura estratégica para o Brasil, combinando alta produtividade com práticas sustentáveis.</p>
-            <a href="#tecnologia" class="btn">Ver Tecnologias</a>
-        </div>
-    </section>
+        <div class="quiz-content">
+            <h2>Quiz da Soja 🧠</h2>
+            <p>Teste seus conhecimentos!</p>
 
-    <!-- TECNOLOGIA -->
-    <section id="tecnologia" class="section section-alt">
-        <div class="section-content">
-            <h2>Tecnologia e Inovação ⚙️</h2>
-            <p>O uso de drones, sensores e plantio direto ajuda a reduzir impactos ambientais e aumenta a eficiência.</p>
-            <a href="#meio-ambiente" class="btn">Impacto Ambiental</a>
-        </div>
-    </section>
-
-    <!-- MEIO AMBIENTE -->
-    <section id="meio-ambiente" class="section">
-        <div class="section-content">
-            <h2>Meio Ambiente 🌎</h2>
-            <p>Práticas como rotação de culturas e preservação de áreas nativas garantem equilíbrio ecológico.</p>
-            <a href="#quiz" class="btn">Ir para Quiz</a>
-        </div>
-    </section>
-
-    <!-- QUIZ COM FOTO DO NEYMAR -->
-    <section id="quiz" class="section section-alt">
-        <div class="quiz-wrapper">
-            <div class="quiz-image">
-                <img src="https://i.imgur.com/VrEoV6x.jpg" alt="Neymar colhendo soja">
+            <div class="question">
+                <p>1️⃣ Qual prática ajuda a conservar o solo?</p>
+                <input type="radio" name="q1" value="a"> Rotação de culturas 🌾<br>
+                <input type="radio" name="q1" value="b"> Desmatamento 🌲<br>
+                <input type="radio" name="q1" value="c"> Uso excessivo de pesticidas 🧪
             </div>
-            <div class="quiz-content">
-                <h2>Quiz da Soja 🧠</h2>
-                <p>Teste seus conhecimentos!</p>
-                
-                <div class="question">
-                    <p>1️⃣ Qual prática ajuda a conservar o solo?</p>
-                    <input type="radio" name="q1" id="q1a"> Rotação de culturas 🌾<br>
-                    <input type="radio" name="q1" id="q1b"> Desmatamento 🌲<br>
-                    <input type="radio" name="q1" id="q1c"> Uso excessivo de pesticidas 🧪
-                </div>
 
-                <div class="question">
-                    <p>2️⃣ Quem é o destaque na imagem?</p>
-                    <input type="radio" name="q2" id="q2a"> Neymar ⚽<br>
-                    <input type="radio" name="q2" id="q2b"> Pelé ⚽<br>
-                    <input type="radio" name="q2" id="q2c"> Ronaldo ⚽
-                </div>
-
-                <div class="question">
-                    <p>3️⃣ Qual emoji representa a soja?</p>
-                    <input type="radio" name="q3" id="q3a"> 🌾<br>
-                    <input type="radio" name="q3" id="q3b"> 🚗<br>
-                    <input type="radio" name="q3" id="q3c"> 🏖️
-                </div>
-
-                <div class="question">
-                    <p>4️⃣ O que fortalece comunidades rurais?</p>
-                    <input type="radio" name="q4" id="q4a"> Produção de soja 🤝<br>
-                    <input type="radio" name="q4" id="q4b"> Poluição<br>
-                    <input type="radio" name="q4" id="q4c"> Desmatamento
-                </div>
-
-                <div class="question">
-                    <p>5️⃣ Qual tecnologia ajuda a aumentar produtividade?</p>
-                    <input type="radio" name="q5" id="q5a"> Drones 🛸<br>
-                    <input type="radio" name="q5" id="q5b"> Caminhão<br>
-                    <input type="radio" name="q5" id="q5c"> Trator antigo
-                </div>
-
-                <div class="question">
-                    <p>6️⃣ Qual prática evita erosão do solo?</p>
-                    <input type="radio" name="q6" id="q6a"> Plantio direto 🌱<br>
-                    <input type="radio" name="q6" id="q6b"> Corte de árvores<br>
-                    <input type="radio" name="q6" id="q6c"> Queima da área
-                </div>
-
-                <div class="question">
-                    <p>7️⃣ O que deve ser preservado na agricultura?</p>
-                    <input type="radio" name="q7" id="q7a"> Áreas nativas 🌳<br>
-                    <input type="radio" name="q7" id="q7b"> Terrenos baldios<br>
-                    <input type="radio" name="q7" id="q7c"> Estradas
-                </div>
-
-                <div class="question">
-                    <p>8️⃣ Qual é o principal produto do site?</p>
-                    <input type="radio" name="q8" id="q8a"> Milho<br>
-                    <input type="radio" name="q8" id="q8b"> Soja 🌾<br>
-                    <input type="radio" name="q8" id="q8c"> Trigo
-                </div>
-
-                <div class="question">
-                    <p>9️⃣ Qual cor combina com o site?</p>
-                    <input type="radio" name="q9" id="q9a"> Azul Escuro<br>
-                    <input type="radio" name="q9" id="q9b"> Ciano 💧<br>
-                    <input type="radio" name="q9" id="q9c"> Verde
-                </div>
-
-                <div class="question">
-                    <p>🔟 Qual prática ajuda na sustentabilidade?</p>
-                    <input type="radio" name="q10" id="q10a"> Rotação de culturas 🌱<br>
-                    <input type="radio" name="q10" id="q10b"> Desmatamento<br>
-                    <input type="radio" name="q10" id="q10c"> Queima da floresta
-                </div>
-
-                <a href="#resultado" class="btn">Enviar Respostas ✅</a>
+            <div class="question">
+                <p>2️⃣ Quem é o destaque na imagem?</p>
+                <input type="radio" name="q2" value="a"> Neymar ⚽<br>
+                <input type="radio" name="q2" value="b"> Pelé ⚽<br>
+                <input type="radio" name="q2" value="c"> Ronaldo ⚽
             </div>
-        </div>
-    </section>
 
-    <!-- RODAPÉ -->
-    <footer id="contato">
-        <p>&copy; 2026 Patrick Agro Sustentável | Contato: patrick@agro.com</p>
-    </footer>
-</body>
-</html>
+            <div class="question">
+                <p>3️⃣ Qual emoji representa a soja?</p>
+                <input type="radio" name="q3" value="a"> 🌾<br>
+                <input type="radio" name="q3" value="b"> 🚗<br>
+                <input type="radio" name="q3" value="c"> 🏖️
+            </div>
+
+            <div class="question">
+                <p>4️⃣ O que fortalece comunidades rurais?</p>
+                <input type="radio" name="q4" value="a"> Produção de soja 🤝<br>
+                <input type="radio" name="q4" value="b"> Poluição<br>
+                <input type="radio" name="q4" value="c"> Desmatamento
+            </div>
+
+            <div class="question">
+                <p>5️⃣ Qual tecnologia ajuda na produtividade?</p>
+                <input type="radio" name="q5" value="a"> Drones 🛸<br>
+                <input type="radio" name="q5" value="b"> Caminhão<br>
+                <input type="radio" name="q5" value="c"> Trator antigo
+            </div>
+
+            <div class="question">
+                <p>6️⃣ Qual prática evita erosão do solo?</p>
+                <input type="radio" name="q6" value="a"> Plantio direto 🌱<br>
+                <input type="radio" name="q6" value="b"> Corte de árvores<br>
+                <input type="radio" name="q6" value="c"> Queima da área
+            </div>
+
+            <div class="question">
+                <p>7️⃣ O que deve ser preservado na agricultura?</p>
+                <input type="radio" name="q7" value="a"> Áreas nativas 🌳<br>
+                <input type="radio" name="q7" value="b"> Terrenos baldios<br>
+                <input type="radio" name="q7" value="c"> Estradas
+            </div>
+
+            <div class="question">
+                <p>8️⃣ Qual é o principal produto do site?</p>
+                <input type="radio" name="q8" value="a"> Milho<br>
+                <input type="radio" name="q8" value="b"> Soja 🌾<br>
+                <input type="radio" name="q8" value="c"> Trigo
+            </div>
+
+            <div class="question">
+                <p>9️⃣ Qual cor combina com o site?</p>
+                <input type="radio" name="q9" value="a"> Azul Escuro<br>
+                <input type="radio" name="q9" value="b"> Ciano 💧<br>
+                <input type="radio" name="q9" value="c"> Verde
+            </div>
+
+            <div class="question">
+                <p>🔟 Qual prática ajuda na sustentabilidade?</p>
+                <input type="radio" name="q10" value="a"> Rotação de culturas 🌱<br>
+                <input type="radio" name="q10" value="b"> Desmatamento<br>
+                <input type="radio" name="q10" value="c"> Queima da floresta
+            </div>
+
+            <button class="btn" onclick="corrigirQuiz()">Enviar Respostas ✅</button>
+
+            <div id="resultado" class="resultado"></div>
+        </div>
+
+    </div>
+</section>
+<script>
+function corrigirQuiz() {
+    let pontos = 0;
+
+    const respostas = {
+        q1: "a",
+        q2: "a",
+        q3: "a",
+        q4: "a",
+        q5: "a",
+        q6: "a",
+        q7: "a",
+        q8: "b",
+        q9: "c",
+        q10: "a"
+    };
+
+    for (let q in respostas) {
+        const selecionada = document.querySelector(`input[name="${q}"]:checked`);
+
+        if (selecionada && selecionada.value === respostas[q]) {
+            pontos++;
+        }
+    }
+
+    const resultado = document.getElementById("resultado");
+
+    let mensagem = "";
+
+    if (pontos === 10) {
+        mensagem = "🔥 Perfeito! Você acertou tudo!";
+    } else if (pontos >= 7) {
+        mensagem = "👍 Muito bom!";
+    } else if (pontos >= 4) {
+        mensagem = "🙂 Dá pra melhorar!";
+    } else {
+        mensagem = "📚 Estude mais e tente novamente!";
+    }
+
+    resultado.innerHTML = `
+        <h3>Resultado</h3>
+        <p>Você acertou <strong>${pontos}/10</strong></p>
+        <p>${mensagem}</p>
+    `;
+}
+</script>
